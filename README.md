@@ -1,3 +1,5 @@
+Send emails to your Joplin
+
 #You'll need to 
 
 pip install requests
