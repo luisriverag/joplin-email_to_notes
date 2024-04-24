@@ -2,8 +2,7 @@ Send emails to your Joplin
 
 #You'll need to 
 
-pip install requests
-pip install python-dotenv
+pip install -r requirements.txt
 
 #Add a .env with
 
@@ -18,10 +17,10 @@ JOPLIN_PORT=41184
 #Run it manually (or add to cron)
 python3 run.py
 
-
-WITH VENV
+#WITH VENV
 
 python3 -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
 
 python3 run.py
