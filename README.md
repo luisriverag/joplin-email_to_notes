@@ -17,3 +17,11 @@ JOPLIN_PORT=41184
 
 #Run it manually (or add to cron)
 python3 run.py
+
+
+WITH VENV
+
+python3 -m venv venv
+source venv/bin/activate
+
+python3 run.py
